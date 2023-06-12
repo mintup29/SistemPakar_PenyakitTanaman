@@ -124,7 +124,8 @@
 											<img src="landing/img/slide/1.jpg" alt="hero image"/>
 										</div>
 										<div class="hero-center-wrap z-bigger">
-											<h1 class="parallax-fade-top">Cek Tingkat <br><span>Depresimu </span></h1> 
+											<h1 class="parallax-fade-top-2 typed">Cek Kesehatan <strong>Tanaman Brokoli Anda</strong>
+												<br><span id="typed-1"></span></h1>
 										</div>
 										<p class="hero-top-text">Depresimu</p>
 									</div>	
