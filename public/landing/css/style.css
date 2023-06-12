@@ -374,11 +374,11 @@ body.royal_preloader {
 	transition : all 0.3s ease-out;
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
-	width: 94px;
-	height: 24px;
-	top: 28px;
+	width: 184px;
+	height: 74px;
+	top: 2px;
 	background:url('../img/logo-light.png') no-repeat center center;
-	background-size: 94px 24px;
+	background-size: 184px 48px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
