@@ -129,8 +129,8 @@
                         <div class="col-md-12">
                             <br>
                             <br>
-                            <h1 class="parallax-fade-top-2 typed">Cek Tingkat <strong>Depresimu</strong>
-                                Sekarang!<br><span id="typed-1"></span></h1>
+                            <h1 class="parallax-fade-top-2 typed">Cek Kesehatan <strong>Tanaman Brokoli Anda</strong>
+                                <br><span id="typed-1"></span></h1>
                             <br>
                             <style>
                                 .btn-glow:hover {
@@ -138,7 +138,7 @@
                                   transition: box-shadow 0.5s;
                                 }
                               </style>
-                              <div style="margin-left: 12px">
+                              <div style="margin-left: 40px">
 
                                 <a href="/form-faq"  class="btn btn-dark btn-glow" role="button" style="color: rgb(218, 116, 22);">
                                   Isi form
@@ -465,7 +465,7 @@
         // Type text
 
         var typed = new Typed('#typed-1', {
-            strings: ['diagnosa', 'solusi', 'atasi'],
+            strings: ['atasi', 'penyakit', 'brokoli'],
             typeSpeed: 45,
             backSpeed: 0,
             startDelay: 200,
