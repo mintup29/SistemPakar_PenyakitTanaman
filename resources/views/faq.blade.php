@@ -47,7 +47,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 		rel="stylesheet" />
 	<link media="print" href="depresi-assets/wp-content/cache/autoptimize/css/autoptimize_5653ccbbff2bf3fde17022871919df8b.css"
 		rel="stylesheet" />
-	<title>Diagnosa Tingkat Depresi</title>
+	<title>Diagnosis Penyakit Tumbuhan Brokoli</title>
 	<meta name="description"
 		content="Take our depression test if you are feeling overwhelming sadness—it&#039;s free, quick, confidential, and scientifically validated." />
 	<link rel="canonical" href="index.html" />
@@ -672,7 +672,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 						<ul id="main-menu" class="sf-menu">
 							<li id="menu-item-406"
 								class="heading left-col menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-406">
-								<a href="#">Diagnosa Tingkat Depresi</a>
+								<a href="#">Diagnosis Penyakit Tumbuhan Brokoli</a>
 								<ul class="sub-menu">
 									<li id="menu-item-16362"
 										class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-16362">
@@ -2080,7 +2080,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 							<ul id="footer-menu" class="menu">
 								<li
 									class="heading left-col menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-406">
-									<a href="#">Diagnosa Tingkat Depresi</a>
+									<a href="#">Diagnosis Penyakit Tumbuhan Brokoli</a>
 									<ul class="sub-menu">
 										<li
 											class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-16362">
