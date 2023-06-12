@@ -423,11 +423,11 @@ body.royal_preloader {
 
 .logo{
 	position:absolute;
-	width: 210px;
-	height:54px;
+	width: 260px;
+	height:104px;
 	z-index:10000;
-	top:54px;
-	background:url('../img/logo-dark.png') no-repeat center center;
+	top:32px;
+	background:url('../img/logo-dr-brokoli.png') no-repeat center center;
 	background-size: 210px 54px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
