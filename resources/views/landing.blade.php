@@ -91,7 +91,7 @@
                     <ul>
                         <li><a href="/form-faq">Diagnosa</a></li>
                         <li><a href="/gejala">Gejala</a></li>
-                        <li><a href="/depresi">Depresi</a></li>
+                        <li><a href="/depresi">Penyakit</a></li>
                     </ul>
                 </li>
                 <li>
@@ -140,7 +140,7 @@
                               </style>
                               <div style="margin-left: 40px">
 
-                                <a href="/form-faq"  class="btn btn-dark btn-glow" role="button" style="color: rgb(218, 116, 22);">
+                                <a href="/form-faq"  class="btn btn-dark btn-glow" role="button" style="color: #ffff">
                                   Isi form
                                 </a>
                               </div>
@@ -162,8 +162,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 page-center-text-wrap text-center">
-                        <h1 class="parallax"><strong>-</strong> Project akhir semester mata kuliah
-                            <strong>-</strong><br><span>sistem pakar</span></h1>
+                        <h1 class="parallax"><strong>-</strong> Project Akhir Semester Mata Kuliah 
+                            <strong>-</strong><br><span>EXPERT SYSTEM</span></h1>
                     </div>
                 </div>
             </div>
@@ -176,11 +176,9 @@
                         <div id="owl-sep-1" class="owl-carousel owl-theme">
                             <div class="item">
                                 <div class="quote">
-                                    <p class="lead">"DepresiCheck adalah situs yang membantu mahasiswa akhir mengukur
-                                        tingkat depresi mereka dengan mengisi formulir pertanyaan. Kami percaya bahwa
-                                        mengetahui tingkat depresi Anda adalah langkah pertama dalam menemukan solusi
-                                        dan menangani masalah ini. Selain itu, kami juga menyediakan informasi dan
-                                        sumber daya yang berguna untuk membantu Anda dalam mengelola depresi Anda."</p>
+                                    <p class="lead">"DR.BROKOLI adalah aplikasi yang membantu para petani dalam mendiagnosis
+                                        kesehatan tanaman brokoli dengan menggunakan sistem pakar. Kami percaya bahwa dengan mengetahui kondisi
+                                        tanaman Anda, Anda dapat mengambil langkah-langkah yang tepat untuk merawatnya dengan baik."</p>
                                     <h6>
                                         <h6>&rarr;</h6>
                                     </h6>
@@ -188,17 +186,21 @@
                             </div>
                             <div class="item">
                                 <div class="quote">
-                                    <p class="lead">"Ingatlah bahwa DepresiCheck bukanlah pengganti layanan
-                                        profesional, jadi pastikan untuk selalu mencari bantuan medis yang tepat jika
-                                        Anda mengalami gejala depresi."</p>
+                                    <p class="lead">"DR.BROKOLI memberikan solusi terkait kesehatan tanaman brokoli, 
+                                        namun kami ingin menekankan bahwa aplikasi kami bukanlah pengganti dari pengetahuan dan keterampilan 
+                                        petani profesional. Selalu disarankan untuk mendapatkan nasihat dan panduan dari ahli pertanian yang berpengalaman
+                                        dalam merawat tanaman brokoli Anda. DR.BROKOLI hadir untuk memberikan informasi dan saran yang berguna, 
+                                        sementara bimbingan dari para ahli akan memastikan pertumbuhan dan keberhasilan panen yang optimal."
+                                        "</p>
                                     <h6>&rarr;</h6>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="quote">
-                                    <p class="lead">"Kami membuat DepresiCheck sebagai proyek akhir untuk membantu
-                                        teman-teman kami yang mungkin mengalami depresi untuk mengetahui tingkat depresi
-                                        mereka dan menemukan solusi sesuai."</p>
+                                    <p class="lead">
+                                        "DR.BROKOLI hadir sebagai persembahan kami dalam bentuk proyek akhir, dengan tujuan membantu petani-petani 
+                                        dalam mengatasi tantangan kesehatan tanaman brokoli. Kami percaya bahwa melalui penggunaan sistem pakar kami,
+                                        petani dapat mengetahui kondisi tanaman mereka dan menemukan solusi yang sesuai. Dalam menjaga keberlanjutan pertanian."</p>
                                     <h6>&rarr;</h6>
                                 </div>
                             </div>
@@ -212,8 +214,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-5 text-center mb-5">
-                        <h4>Kelompok X</h4>
-                        <p class="lead">Sistem Pakar</p>
+                        <h4>Kelompok 12</h4>
+                        <p class="lead">Expert System</p>
                     </div>
                 </div>
             </div>
@@ -222,8 +224,8 @@
                     <div class="col text-center">
                         <div class="team-wrap">
                             <img src="landing/img/team2.jpg" alt="">
-                            <p>Ketua</p>
-                            <h6>Alfi Atqia Rinjani</h6>
+                            <p>Leader</p>
+                            <h6>Fawwaz Ivandra</h6>
                             <div class="social-team">
                                 <ul class="list-social-team">
                                     <li class="icon-team tipped" data-title="<span>github</span>"
@@ -241,8 +243,8 @@
                     <div class="col mt-4 m-xl-0 text-center">
                         <div class="team-wrap">
                             <img src="landing/img/team4.jpg" alt="">
-                            <p>Web Development</p>
-                            <h6>Andrian</h6>
+                            <p>Back-End Developer</p>
+                            <h6>Vicko Danendra Setyo Yuwono</h6>
                             <div class="social-team">
                                 <ul class="list-social-team">
                                     <li class="icon-team tipped" data-title="<span>twitter</span>"
@@ -260,8 +262,8 @@
                     <div class="col mt-4 m-md-0 text-center">
                         <div class="team-wrap">
                             <img src="landing/img/team3.jpg" alt="">
-                            <p>Design process</p>
-                            <h6>Canggih Wahyu Rinaldi</h6>
+                            <p>Front-End Developer</p>
+                            <h6>Maulana Daffa Athaullah Yahya</h6>
                             <div class="social-team">
                                 <ul class="list-social-team">
                                     <li class="icon-team tipped" data-title="<span>github</span>"
@@ -280,8 +282,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -378,46 +378,6 @@
             </div>
         </section>
 
-
-
-
-
-
-        <div class="section footer padding-top-big background-image-cover"
-            style="background-image: url(img/footer.jpg);">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="landing/img/logo-light.png" alt="logo image" />
-                    </div>
-                    <div class="col-md-12 my-4">
-                        <ul class="footer-social">
-                            <li>
-                                <a href="#">Tw</a>
-                            </li>
-                            <li>
-                                <a href="#">Fb</a>
-                            </li>
-                            <li>
-                                <a href="#">G+</a>
-                            </li>
-                            <li>
-                                <a href="#">Vm</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 mt-5">
-                        <div class="footer-line"></div>
-                    </div>
-                    <div class="col-md-12 rights my-3">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
         <div class="section footer padding-top-big background-image-cover"
             style="background-image: url(landing/img/footer.jpg);">
             <div class="container">
@@ -449,7 +409,6 @@
                 </div>
             </div>
         </div>
-
     </main>
 
 
