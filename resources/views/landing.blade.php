@@ -87,7 +87,7 @@
                     <a class="shadow-hover" href="/dashboard">Dashboard</a>
                 </li>
                 <li>
-                    <a class="shadow-hover curent-shadow" href="#">Menu</a>
+                    <a class="shadow-hover" href="#">Menu</a>
                     <ul>
                         <li><a href="/form-faq">Diagnosa</a></li>
                         <li><a href="/gejala">Gejala</a></li>
