@@ -915,7 +915,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
                             <h2 class="mb-0">
                                 <button class="btn btn-link" type="button" data-toggle="collapse"
                                     data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Apa itu DepresiCheck?
+                                        Apa itu DR.BROKOLI?
                                 </button>
                             </h2>
                         </div>
@@ -923,9 +923,8 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                DepresiCheck adalah sebuah situs yang membantu mahasiswa akhir mengukur tingkat depresi
-                                mereka dengan mengisi formulir pertanyaan. Kami menyediakan solusi sesuai setelah
-                                mahasiswa mengisi formulir tersebut.
+                                DR.BROKOLI adalah aplikasi sistem pakar yang dirancang untuk membantu petani 
+                                dalam mendiagnosis dan merawat kesehatan tanaman brokoli.
                             </div>
                         </div>
                     </div>
@@ -934,15 +933,16 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                     data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Siapa yang bisa mengakses DepresiCheck?
+                                    Bagaimana DR.BROKOLI dapat membantu dalam mendiagnosis kesehatan tanaman brokoli?
                                 </button>
                             </h2>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                DepresiCheck ditujukan untuk mahasiswa akhir, namun siapa saja dapat mengakses situs ini
-                                dan mengisi formulir untuk mengetahui tingkat depresi mereka.
+                                DR.BROKOLI menggunakan kecerdasan buatan dan sistem pakar untuk menganalisis data
+                                yang Anda berikan tentang tanaman brokoli Anda. Berdasarkan informasi tersebut, 
+                                aplikasi akan memberikan diagnosis dan rekomendasi untuk merawat tanaman brokoli secara efektif.
                             </div>
                         </div>
                     </div>
@@ -951,16 +951,16 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                     data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Apakah hasil dari DepresiCheck dapat diandalkan?
+                                    Apakah aplikasi DR.BROKOLI dapat memberikan informasi lebih lanjut mengenai perawatan tanaman brokoli?
                                 </button>
                             </h2>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                Hasil dari DepresiCheck adalah sebuah estimasi dari tingkat depresi seseorang, dan tidak
-                                bisa dianggap sebagai diagnosis yang pasti. Kami sangat menyarankan agar seseorang yang
-                                merasa memiliki tingkat depresi yang tinggi untuk segera meminta bantuan profesional.
+                                Ya, selain memberikan diagnosis dan rekomendasi, aplikasi DR.BROKOLI juga menyediakan informasi 
+                                dan sumber daya berguna mengenai perawatan tanaman brokoli. Anda dapat menemukan panduan, tips, 
+                                dan praktik terbaik untuk merawat tanaman brokoli dengan baik.
                             </div>
                         </div>
                     </div>
@@ -969,16 +969,16 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
                             <h2 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                     data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Bagaimana cara mengakses solusi yang ditawarkan DepresiCheck?
+                                    Bagaimana jika saya memiliki pertanyaan atau masalah yang tidak tercakup di DR.BROKOLI?
                                 </button>
                             </h2>
                         </div>
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                             data-parent="#faqAccordion">
                             <div class="card-body">
-                                Setelah mengisi formulir, mahasiswa akan menerima rekomendasi solusi sesuai dengan
-                                tingkat depresi yang terdeteksi. Kami juga menyediakan tautan ke sumber informasi dan
-                                bantuan profesional yang dapat membantu mahasiswa mengatasi depresi mereka.
+                                Jika Anda memiliki pertanyaan atau masalah yang tidak tercakup di DR.BROKOLI, silakan hubungi tim kami 
+                                melalui halaman "Kontak Kami" di website kami. Kami akan dengan senang hati membantu 
+                                Anda dengan pertanyaan atau masalah yang Anda hadapi.
                             </div>
                         </div>
                     </div>
