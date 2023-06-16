@@ -407,6 +407,185 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 			font-size: 1.5em;
 			line-height: 1.6;
 		}
+	.round-btn {display: inline;height: 40px; width: 40px; background:#fff;border-radius: 50%;float: left;margin: 15px 8px;box-shadow: 2px 2px 5px 0px rgb(82, 0, 67);border: 1px solid;/*border: 1px solid #622657;*/}
+    .round-btn a {display: block !important;padding: 7px 12px;font-size: 18px;border-radius: 50%;}
+    .round-btn .icon {padding: 3px;}
+    .round-btn .icon img{height: 24px; width: 32px;margin-top: 6px;}
+    .btn-facebook a {color: #3b5998;padding: 8px 13px;}
+    .btn-linkedin a {color: #007bb6;}
+    .btn-twitter a{color: #1c9deb;}
+    .btn-instagram a{color: #dd3f5c;}
+    .btn-whatsapp a{color: #155E54;}
+    .btn-envelop a{color: #D6403A;font-size: 15px; padding: 9px 12px;}
+    .standard_header .standard_social_links {margin-left: 1rem;}
+    /*
+    =========================================================================================
+                                        footer
+    =========================================================================================
+    */
+    
+    .footer-wrap {
+        padding-top: 43px;
+        background-size: cover;
+    }
+    .footer-wrap h3 {
+        color: #fff;
+        font-size: 17px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    .footer-wrap p {
+        font-size: 13px;
+        line-height: 24px;
+        color: #b3b3b3;
+        margin-top: 15px;
+    }
+    .footer-wrap p a {
+        color: #fff;
+        text-decoration: underline;
+        font-style: italic;
+    }
+    .footer-wrap p a:hover {
+        text-decoration: none;
+        color: #ff7800;
+    }
+    .footer-links li a {
+        font-size: 13px;
+        line-height: 30px;
+        color: #ccc;
+        text-decoration: none;
+    }
+    .footer-links li:before {
+        content: "\f105";
+        font-family: 'FontAwesome';
+        padding-right: 10px;
+        color: #ccc;
+    }
+    .footer-category li a {
+        font-size: 13px;
+        line-height: 30px;
+        color: #ccc;
+        text-decoration: none;
+    }
+    .footer-category li:before {
+        content: "\f105";
+        font-family: 'FontAwesome';
+        padding-right: 10px;
+        color: #b3b3b3;
+    }
+    .address {
+        
+        color: #b3b3b3;
+        font-size: 14px;
+        position: relative;
+        padding-left: 30px;
+        line-height: 30px;
+    }
+    .address:before {
+        content: "\f277";
+        font-family: 'FontAwesome';
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .info a {
+    
+        color: #b3b3b3;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+    .fa-phone:before {
+        content: "\f095";
+    }
+    .info a {
+        color: #b3b3b3;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+    .fa-fax:before {
+        content: "\f1ac";
+    }
+    .copyright {
+        border-top: 1px solid #111;
+        font-size: 14px;
+        color: #ccc;
+        padding-top: 15px;
+        text-align: center;
+        padding-bottom: 15px;
+        background: #222;
+    }
+    footer .second_class{
+        border-bottom: 1px solid #444;
+        padding-bottom: 25px;
+    }
+    footer .first_class {
+        padding-bottom: 21px;
+        border-bottom: 1px solid #444;
+    }
+    footer .first_class p, footer .first_class h3{
+        margin: 0 0;
+        
+    }
+    footer{
+        background: #333;
+    }
+    footer .newsletter input[type="text"] {
+        width: 100%;
+        background: #fff;
+        color: #333;
+        border: 1px solid #222;
+        padding: 14px 20px;
+        border-radius: 50px;
+        margin-top: 12px;
+    }
+    .newsletter .newsletter_submit_btn {
+        background: #fff;
+        position: absolute;
+        right: 30px;
+        border: 0;
+        top: 10px;
+        font-size: 10px;
+        color: #333;
+    }
+    footer .second_class_bdr{
+        padding-top: 25px;
+        border-top:1px solid #222;
+    }
+    footer .btn-facebook a {
+        padding: 6px 14px !important;
+    }
+    footer .btn-envelop a {
+        color: #D6403A;
+        font-size: 15px;
+        padding: 12px 12px;
+    }
+    footer .round-btn a {
+        padding: 6px 12px;
+    }
+    footer .round-btn {
+        box-shadow: 2px 2px 5px 0px #222 !important;}
+    footer .round-btn {
+        margin: 15px 4px;}
+    
+    footer dl, ol, ul {
+        padding-left: 5px;
+    }
+    footer li{
+        list-style: none;
+    }
+    @media(max-width:768px){
+        .footer-wrap h3 {
+        margin-top: 27px;}
+        
+        footer .round-btn {
+        margin: 15px 4px;}
+    }
+    @media(max-width:320px){
+    .copyright {
+        font-size: 13px;}
+    } 
 	</style>
 	<link rel='stylesheet' id='dashicons-css' href='depresi-assets/wp-includes/css/dashicons.min6a4d.css?ver=6.1.1'
 		media='all' />
@@ -1927,215 +2106,121 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 				</div>
 			</article>
 		</main>
-		<footer id="footer" class="clear">
-			<div id="smart-footer">
-				<div class="wrap normal">
-					<div id="footer-left">
-						<div id="footer-sign-up" class="bubble round-bl cerulean">
-							<div class="inner">
-								<div class="text-blue">
-									<h3>Sign Up for our Newsletter</h3>
-									<p>Learn about opportunities to help change the conversation around mental health.
-									</p>
-								</div>
-								<div class="form-container line-form blue">
-									<div class='gf_browser_safari gform_wrapper gform_legacy_markup_wrapper'
-										id='gform_wrapper_4'>
-										<form method='post' enctype='multipart/form-data' target='gform_ajax_frame_4'
-											id='gform_4'
-											action='https://screening.mhanational.org/screening-tools/depression/'
-											novalidate>
-											<div class='gform_body gform-body'>
-												<ul id='gform_fields_4'
-													class='gform_fields top_label form_sublabel_below description_below'>
-													<li id="field_4_1"
-														class="gfield float-label field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_1"><label class='gfield_label'
-															for='input_4_1'>First Name</label>
-														<div class='ginput_container ginput_container_text'><input
-																name='input_1' id='input_4_1' type='text' value=''
-																class='medium' aria-invalid="false" /></div>
-													</li>
-													<li id="field_4_6"
-														class="gfield gfield--width-full float-label field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_6"><label class='gfield_label'
-															for='input_4_6'>Last Name</label>
-														<div class='ginput_container ginput_container_text'><input
-																name='input_6' id='input_4_6' type='text' value=''
-																class='medium' aria-invalid="false" /></div>
-													</li>
-													<li id="field_4_2"
-														class="gfield float-label gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_2"><label class='gfield_label'
-															for='input_4_2'>Email<span class="gfield_required"><span
-																	class="gfield_required gfield_required_asterisk">*</span></span></label>
-														<div class='ginput_container ginput_container_email'> <input
-																name='input_2' id='input_4_2' type='email' value=''
-																class='medium' aria-required="true"
-																aria-invalid="false" /></div>
-													</li>
-													<li id="field_4_4"
-														class="gfield float-label field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_4"><label class='gfield_label'
-															for='input_4_4'>Phone Number (Optional)</label>
-														<div class='ginput_container ginput_container_text'><input
-																name='input_4' id='input_4_4' type='text' value=''
-																class='medium' aria-invalid="false" /></div>
-													</li>
-													<li id="field_4_7"
-														class="gfield gfield--width-full gform_hidden field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_7">
-														<div class='ginput_container ginput_container_text'><input
-																name='input_7' id='input_4_7' type='hidden'
-																class='gform_hidden' aria-invalid="false" value='' />
-														</div>
-													</li>
-													<li id="field_4_5"
-														class="gfield gfield--width-full field_sublabel_below field_description_below hidden_label gfield_visibility_visible"
-														data-js-reload="field_4_5"><label class='gfield_label'
-															for='input_4_5'>CAPTCHA</label>
-														<div id='input_4_5' class='ginput_container ginput_recaptcha'
-															data-sitekey='6LftXuYZAAAAAOyPYz_3N6shIU7JiSovAbrGHjWf'
-															data-theme='light' data-tabindex='0' data-badge=''></div>
-													</li>
-													<li id="field_4_8"
-														class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible"
-														data-js-reload="field_4_8"><label class='gfield_label'
-															for='input_4_8'>Name</label>
-														<div class='ginput_container'><input name='input_8'
-																id='input_4_8' type='text' value=''
-																autocomplete='new-password' /></div>
-														<div class='gfield_description' id='gfield_description_4_8'>This
-															field is for validation purposes and should be left
-															unchanged.</div>
-													</li>
-												</ul>
-											</div>
-											<div class='gform_footer top_label'> <input type='submit'
-													id='gform_submit_button_4' class='gform_button button'
-													value='Submit'
-													onclick='if(window["gf_submitting_4"]){return false;}  if( !jQuery("#gform_4")[0].checkValidity || jQuery("#gform_4")[0].checkValidity()){window["gf_submitting_4"]=true;}  '
-													onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_4"]){return false;} if( !jQuery("#gform_4")[0].checkValidity || jQuery("#gform_4")[0].checkValidity()){window["gf_submitting_4"]=true;}  jQuery("#gform_4").trigger("submit",[true]); }' />
-												<input type='hidden' name='gform_ajax'
-													value='form_id=4&amp;title=&amp;description=&amp;tabindex=0' />
-												<input type='hidden' class='gform_hidden' name='is_submit_4'
-													value='1' /> <input type='hidden' class='gform_hidden'
-													name='gform_submit' value='4' /> <input type='hidden'
-													class='gform_hidden' name='gform_unique_id' value='' /> <input
-													type='hidden' class='gform_hidden' name='state_4'
-													value='WyJbXSIsIjdkODliOTcwYTljYWM4NjI3YmU2NTdjNDI2YjFhYzE5Il0=' />
-												<input type='hidden' class='gform_hidden'
-													name='gform_target_page_number_4' id='gform_target_page_number_4'
-													value='0' /> <input type='hidden' class='gform_hidden'
-													name='gform_source_page_number_4' id='gform_source_page_number_4'
-													value='1' /> <input type='hidden' name='gform_field_values'
-													value='' /></div>
-										</form>
-									</div> <iframe style='display:none;width:0px;height:0px;' src='about:blank'
-										name='gform_ajax_frame_4' id='gform_ajax_frame_4'
-										title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
-									<script>gform.initializeOnLoaded(function () { gformInitSpinner(4, 'https://screening.mhanational.org/wp-content/plugins/gravityforms/images/spinner.svg'); jQuery('#gform_ajax_frame_4').on('load', function () { var contents = jQuery(this).contents().find('*').html(); var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0; if (!is_postback) { return; } var form_content = jQuery(this).contents().find('#gform_wrapper_4'); var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_4').length > 0; var is_redirect = contents.indexOf('gformRedirect(){') >= 0; var is_form = form_content.length > 0 && !is_redirect && !is_confirmation; var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100; if (is_form) { jQuery('#gform_wrapper_4').html(form_content.html()); if (form_content.hasClass('gform_validation_error')) { jQuery('#gform_wrapper_4').addClass('gform_validation_error'); } else { jQuery('#gform_wrapper_4').removeClass('gform_validation_error'); } setTimeout(function () { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ }, 50); if (window['gformInitDatepicker']) { gformInitDatepicker(); } if (window['gformInitPriceFields']) { gformInitPriceFields(); } var current_page = jQuery('#gform_source_page_number_4').val(); gformInitSpinner(4, 'https://screening.mhanational.org/wp-content/plugins/gravityforms/images/spinner.svg'); jQuery(document).trigger('gform_page_loaded', [4, current_page]); window['gf_submitting_4'] = false; } else if (!is_redirect) { var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html(); if (!confirmation_content) { confirmation_content = contents; } setTimeout(function () { jQuery('#gform_wrapper_4').replaceWith(confirmation_content); jQuery(document).trigger('gform_confirmation_loaded', [4]); window['gf_submitting_4'] = false; wp.a11y.speak(jQuery('#gform_confirmation_message_4').text()); }, 50); } else { jQuery('#gform_4').append(contents); if (window['gformRedirect']) { gformRedirect(); } } jQuery(document).trigger('gform_post_render', [4, current_page]); }); });</script>
-								</div>
-							</div>
-						</div>
-						<div id="footer-social-top" class="footer-social-top footer-social">
-							<div class="menu-social-icons-container">
-								<ul id="social-menu-top" class="menu">
-									<li id="menu-item-421"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-421"><a
-											title="Link to Inspire" target="_blank" rel="noopener"
-											href="http://www.inspire.com/groups/mental-health-america/"><span
-												class="fa fa-inspire" aria-hidden="true"></span></a></li>
-									<li id="menu-item-416"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-416"><a
-											title="Link to Facebook" target="_blank" rel="noopener"
-											href="https://www.facebook.com/mentalhealthamerica"><span
-												class="fa fa-facebook" aria-hidden="true"></span></a></li>
-									<li id="menu-item-417"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-417"><a
-											title="Link to Instagram" target="_blank" rel="noopener"
-											href="https://www.instagram.com/mentalhealthamerica"><span
-												class="fa fa-instagram" aria-hidden="true"></span></a></li>
-									<li id="menu-item-418"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-418"><a
-											title="Link to Twitter" target="_blank" rel="noopener"
-											href="https://www.twitter.com/mentalhealtham"><span class="fa fa-twitter"
-												aria-hidden="true"></span></a></li>
-									<li id="menu-item-419"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-419"><a
-											title="Link to Pinterest" target="_blank" rel="noopener"
-											href="https://www.pinterest.com/mentalhealtham/pins/"><span
-												class="fa fa-pinterest" aria-hidden="true"></span></a></li>
-									<li id="menu-item-420"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-420"><a
-											title="Link to Youtube" target="_blank" rel="noopener"
-											href="https://www.youtube.com/user/mentalhealthamerica"><span
-												class="fa fa-youtube" aria-hidden="true"></span></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div id="footer-right">
-						<div class="menu-main-menu-container">
-							<ul id="footer-menu" class="menu">
-								<li
-									class="heading left-col menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-406">
-									<a href="#">Diagnosis Penyakit Tumbuhan Brokoli</a>
-									<ul class="sub-menu">
-										<li
-											class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-16362">
-											<a href="#">Gejala</a></li>
-										<li
-											class="wide bold menu-item menu-item-type-post_type menu-item-object-page menu-item-3054">
-											<a href="#">Depresi</a></li>
-
-									</ul>
-								</li>
-								<li
-									class="heading menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-405">
-									<a href="/">Home</a>
-								</li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404"><a
-										href="#">About</a></li>
-
-							</ul>
-						</div>
-					</div>
-					<div id="footer-social-bottom" class="footer-social-top footer-social">
-						<div class="menu-social-icons-container">
-							<ul id="social-menu-bottom" class="menu">
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-421"><a
-										title="Link to Inspire" target="_blank" rel="noopener"
-										href="http://www.inspire.com/groups/mental-health-america/"><span
-											class="fa fa-inspire" aria-hidden="true"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-416"><a
-										title="Link to Facebook" target="_blank" rel="noopener"
-										href="https://www.facebook.com/mentalhealthamerica"><span class="fa fa-facebook"
-											aria-hidden="true"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-417"><a
-										title="Link to Instagram" target="_blank" rel="noopener"
-										href="https://www.instagram.com/mentalhealthamerica"><span
-											class="fa fa-instagram" aria-hidden="true"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-418"><a
-										title="Link to Twitter" target="_blank" rel="noopener"
-										href="https://www.twitter.com/mentalhealtham"><span class="fa fa-twitter"
-											aria-hidden="true"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-419"><a
-										title="Link to Pinterest" target="_blank" rel="noopener"
-										href="https://www.pinterest.com/mentalhealtham/pins/"><span
-											class="fa fa-pinterest" aria-hidden="true"></span></a></li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-420"><a
-										title="Link to Youtube" target="_blank" rel="noopener"
-										href="https://www.youtube.com/user/mentalhealthamerica"><span
-											class="fa fa-youtube" aria-hidden="true"></span></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-
-		</footer>
+		<!--footer start-->
+        <footer>
+            <div class="footer-wrap">
+            <div class="container first_class">
+                <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <h3>BE THE FIRST TO KNOW</h3>
+                    <p>Get all the latest information on  Triedge Services, Events, Jobs
+                    and Fairs. Sign up for our newsletter today.</p>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                <form class="newsletter">
+                    <input type="text" placeholder="Email Address"> 
+                        <button class="newsletter_submit_btn" type="submit"><i class="fa fa-paper-plane"></i></button>  
+                </form>
+                
+                </div>
+                <div class="col-md-4 col-sm-6">
+                <div class="col-md-12">
+                    <div class="standard_social_links">
+                <div>
+                    <li class="round-btn btn-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+        
+                    </li>
+                    <li class="round-btn btn-linkedin"><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+        
+                    </li>
+                    <li class="round-btn btn-twitter"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        
+                    </li>
+                    <li class="round-btn btn-instagram"><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        
+                    </li>
+                    <li class="round-btn btn-whatsapp"><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+        
+                    </li>
+                    <li class="round-btn btn-envelop"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        
+                    </li>
+                </div>
+                </div>  
+                </div>
+                    <div class="clearfix"></div>
+                <div class="col-md-12"><h3 style="text-align: right;">Stay Connected</h3></div>
+                </div>
+                </div>
+            </div>
+            <div class="second_class">
+                <div class="container second_class_bdr">
+                <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <p>Your one-stop career platform to find Jobs, Internships, Professional Trainings, Projects, and Volunteering Opportunities.</p>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <h3>Quick  LInks</h3>
+                    <ul class="footer-links">
+                    <li><a href="#">Home</a>
+                    </li>
+                    <li><a href="#">About us</a>
+                    </li>
+                    <li><a href="#">Triedge Partners</a>
+                    </li>
+                    <li><a href="#">Contact Us</a>
+                    </li>
+                    <li><a href="#" target="_blank">Terms &amp; Conditions</a>
+                    </li>
+                    <li><a href="#" target="_blank">Privacy Policy</a>
+                    </li>
+                    <li><a href="#">Sitemap</a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h3>OUR SERVICES</h3>
+                    <ul class="footer-category">
+                    <li><a href="#">Fresher Jobs</a>
+                    </li>
+                    <li><a href="#">InternEdge - Internships &amp; Projects </a>
+                    </li>
+                    <li><a href="#">Resume Edge - Resume Writing Services</a>
+                    </li>
+                    <li><a href="#">Readers Galleria - Curated Library</a>
+                    </li>
+                    <li><a href="#">Trideus - Campus Ambassadors</a>
+                    </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h3>triedge Events</h3>
+                    <ul class="footer-links">
+                    <li><a href="#">Triedge Events</a>
+                    </li>
+        
+                    <li><a href="#">Jobs &AMP; Internship Fair 2019</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+                
+            </div>
+            </div>
+            
+            <div class="row">
+                
+                <div class="container-fluid">
+                <div class="copyright"> Copyright 2019 | All Rights Reserved by TRIEDGE Solutions Pvt. Ltd.</div>
+                </div>
+                
+            </div>
+            </div>
+            
+            </footer>
+        
+        <!--footer end-->
 	</div>
 	<div id="mobile-menu-container">
 		<div class="inner">
@@ -2236,6 +2321,7 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 			</ul>
 		</div>
 	</div>
+	<script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
 	<script
 		id='process_mhaActivity-js-extra'>var do_mhaActivity = { "ajaxurl": "https:\/\/screening.mhanational.org\/wp-admin\/admin-ajax.php" };</script>
 	<script src='depresi-assets/wp-content/plugins/mha_activity/mha_activitye084.js?ver=1672585009'
