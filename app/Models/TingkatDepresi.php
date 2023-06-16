@@ -17,11 +17,11 @@ class TingkatDepresi extends Model
         $depresi = [
             [
                 "kode_depresi" => "P001",
-                "depresi" => "Club Root"
+                "depresi" => "Club Rot"
             ],
             [
                 "kode_depresi" => "P002",
-                "depresi" => "Black Root"
+                "depresi" => "Black Rot"
             ],
             [
                 "kode_depresi" => "P003",
