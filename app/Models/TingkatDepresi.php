@@ -27,6 +27,14 @@ class TingkatDepresi extends Model
                 "kode_depresi" => "P003",
                 "depresi" => "Downy Mildew"
             ],
+            [
+                "kode_depresi" => "P004",
+                "depresi" => "Leaf Spot"
+            ],
+            [
+                "kode_depresi" => "P005",
+                "depresi" => "White Rust"
+            ],
         ];
         return $depresi;
     }
