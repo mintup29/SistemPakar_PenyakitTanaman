@@ -61,8 +61,9 @@ background-color: #2980b9;
 @endphp
 
   <div class="login-card animate__animated animate__fadeInDown">
+    <div class="logo"></div>
     <div style="text-align: center;">
-      <img src="landing/img/logo-dark.png" alt="Logo">
+      <img src="landing/img/logo-dr-brokoli.png" alt="Logo" style="width: 215px; height: 55px;">
     </div>
     <br>
     <br>
