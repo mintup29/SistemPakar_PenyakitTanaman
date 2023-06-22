@@ -15,7 +15,7 @@
                 <input type="hidden" name="id" id="id_depresi">
                 <div class="form-floating mb-3 p-2 mx-2">
                     <input type="text" class="form-control" id="kode-depresi" name="kode_depresi" readonly>
-                    <label for="kode-depresi">Kode Depresi</label>
+                    <label for="kode-depresi">Kode Penyakit</label>
                 </div>
                 <div class="form-floating mb-3 p-2 mx-2">
                     <input type="text" class="form-control" id="depresi" name="depresi">
@@ -49,7 +49,7 @@
                 <input type="hidden" name="id" id="id_depresi">
                 <div class="form-floating mb-3 p-2 mx-2">
                     <input type="text" class="form-control" id="kode-depresi" name="kode_depresi" placeholder="kode depresi" required>
-                    <label for="kode-depresi">Kode Depresi</label>
+                    <label for="kode-depresi">Kode Penyakit</label>
                 </div>
                 <div class="form-floating mb-3 p-2 mx-2">
                     <input type="text" class="form-control" id="depresi" name="depresi" placeholder="depresi" required>

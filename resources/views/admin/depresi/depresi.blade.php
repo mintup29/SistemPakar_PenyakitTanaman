@@ -21,15 +21,15 @@
             @endif
             <div class="mt-2 pt-3 d-flex ms-auto">
                 <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#depresiModal">
-                    <i class="bi bi-plus-circle-fill"> Tambah Depresi</i>
+                    <i class="bi bi-plus-circle-fill"> Tambah Penyakit</i>
                 </button>
             </div>
             <table id="tabel-gejala" class="table table-bordered table-hover my-2">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Kode Depresi</th>
-                    <th scope="col">Depresi</th>
+                    <th scope="col">Kode Penyakit</th>
+                    <th scope="col">Penyakit</th>
                     <th scope="col">Aksi</th>
                   </tr>
                 </thead>

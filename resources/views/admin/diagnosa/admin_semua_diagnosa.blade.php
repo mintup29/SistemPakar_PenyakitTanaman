@@ -13,7 +13,7 @@
                           <tr>
                             <th scope="col">#</th>
                             <th scope="col">Diagnosa ID</th>
-                            <th scope="col">Tingkat Depresi</th>
+                            <th scope="col">Penyakit</th>
                             <th scope="col">Persentase</th>
                           </tr>
                         </thead>
