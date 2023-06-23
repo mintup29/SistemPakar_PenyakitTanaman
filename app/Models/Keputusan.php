@@ -43,8 +43,8 @@ class Keputusan extends Model
             [
                 'kode_depresi' => 'P001',
                 'kode_gejala' => 'G003',
-                'mb' => 0.2,
-                'md' => 0.8
+                'mb' => 0.6,
+                'md' => 0.4
             ],
             [
                 'kode_depresi' => 'P001',
@@ -55,8 +55,8 @@ class Keputusan extends Model
             [
                 'kode_depresi' => 'P001',
                 'kode_gejala' => 'G005',
-                'mb' => 0.4,
-                'md' => 0.6
+                'mb' => 0.6,
+                'md' => 0.4
             ],
             [
                 'kode_depresi' => 'P002',
@@ -97,14 +97,14 @@ class Keputusan extends Model
             [
                 'kode_depresi' => 'P003',
                 'kode_gejala' => 'G012',
-                'mb' => 0.2,
-                'md' => 0.8
+                'mb' => 0.6,
+                'md' => 0.4
             ],
             [
                 'kode_depresi' => 'P003',
                 'kode_gejala' => 'G013',
-                'mb' => 0.2,
-                'md' => 0.8
+                'mb' => 0.6,
+                'md' => 0.4
             ],
             [
                 'kode_depresi' => 'P003',
@@ -131,49 +131,49 @@ class Keputusan extends Model
                 'md' => 0.2
             ],
             [
-                'kode_depresi' => 'P003',
+                'kode_depresi' => 'P004',
                 'kode_gejala' => 'G018',
                 'mb' => 0.8,
                 'md' => 0.2
             ],
             [
-                'kode_depresi' => 'P003',
+                'kode_depresi' => 'P004',
                 'kode_gejala' => 'G019',
                 'mb' => 0.6,
                 'md' => 0.4
             ],
             [
-                'kode_depresi' => 'P003',
+                'kode_depresi' => 'P004',
                 'kode_gejala' => 'G020',
-                'mb' => 0.4,
-                'md' => 0.6
+                'mb' => 0.6,
+                'md' => 0.4
             ],
             [
-                'kode_depresi' => 'P004',
+                'kode_depresi' => 'P005',
                 'kode_gejala' => 'G021',
                 'mb' => 0.6,
                 'md' => 0.4
             ],
             [
-                'kode_depresi' => 'P004',
+                'kode_depresi' => 'P005',
                 'kode_gejala' => 'G022',
                 'mb' => 0.8,
                 'md' => 0.2
             ],
             [
-                'kode_depresi' => 'P004',
+                'kode_depresi' => 'P005',
                 'kode_gejala' => 'G023',
                 'mb' => 1,
                 'md' => 0
             ],
             [
-                'kode_depresi' => 'P004',
+                'kode_depresi' => 'P005',
                 'kode_gejala' => 'G024',
                 'mb' => 0.6,
                 'md' => 0.4
             ],
             [
-                'kode_depresi' => 'P004',
+                'kode_depresi' => 'P005',
                 'kode_gejala' => 'G025',
                 'mb' => 0.6,
                 'md' => 0.4
