@@ -892,16 +892,16 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 					<div class="page-intro">
 						<div class='gf_browser_safari gform_wrapper gform_legacy_markup_wrapper' id='gform_wrapper_1'
 							style='display:none'>
-							<<div class='gform_heading'>
+							<div class='gform_heading'>
 								<h3 class="gform_title">Tes Depresi</h3> <span class='gform_description'></span>
 							</div>
 							<form method='post' enctype='multipart/form-data' id='gform_1' action="{{ route('spk.store') }}" novalidate>
 								@csrf
-								<ol class="screen-progress-bar clearfix step-1-of-3">
+								<!-- <ol class="screen-progress-bar clearfix step-1-of-3">
 									<li class="step-1"><span>Informasi<br />Tes</span></li>
 									<li class="step-2"><span>Pertanyaan<br />Tes</span></li>
 									<li class="step-3"><span>Hasil<br />Anda</span></li>
-								</ol>
+								</ol> -->
 								<div class='gform_body gform-body '>
 									<div id='gform_page_1_1' class='gform_page'>
 										<div class='gform_page_fields'>

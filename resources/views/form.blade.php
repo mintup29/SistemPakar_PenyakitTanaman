@@ -720,11 +720,11 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 							</div>
 							<form method='post' enctype='multipart/form-data' id='gform_1' action="{{ route('spk.store') }}" novalidate>
 								@csrf
-								<ol class="screen-progress-bar clearfix step-2-of-3">
+								<!-- <ol class="screen-progress-bar clearfix step-2-of-3">
 									<li class="step-1"><span>Informasi<br />Tes</span></li>
 									<li class="step-2"><span>Pertanyaan<br />Tes</span></li>
 									<li class="step-3"><span>Hasil<br />Anda</span></li>
-								</ol>
+								</ol> -->
 								<div class='gform_body gform-body '>
 									<div id='gform_page_1_1' class='gform_page'>
 										<div class='gform_page_fields'>
@@ -814,17 +814,17 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 
 
 
-												<div class='gform_page_footer top_label'>
+												<!-- <div class='gform_page_footer top_label'>
 													<button type="submit" class='gform_next_button button'>Submit</button>
 													{{-- <a href="/form-faq" class='gform_cancel_button button'>Batal</a> --}}
 
-												</div>
+												</div> -->
 
 											</ul>
 										</div>
 										<div class='gform_page_footer top_label'> <input type='button'
 												id='gform_next_button_1_17' class='gform_next_button button'
-												value='Next'
+												value='Submit'
 												onclick='jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); '
 												onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_1").val("2");  jQuery("#gform_1").trigger("submit",[true]); } ' />
 										</div>

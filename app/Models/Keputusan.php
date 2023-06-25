@@ -27,7 +27,6 @@ class Keputusan extends Model
     public function fillTable()
     {
         $rule = [
-            // P001 => Gangguan Mood
             [
                 'kode_depresi' => 'P001',
                 'kode_gejala' => 'G001',

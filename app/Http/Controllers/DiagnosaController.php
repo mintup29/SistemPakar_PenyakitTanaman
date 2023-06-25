@@ -137,6 +137,7 @@ class DiagnosaController extends Controller
         }
 
         $cfoldGabungan = $cfArr["cf"][0];
+        // dd($cfoldGabungan);
 
         // foreach ($cfArr["cf"] as $cf) {
         //     $cfoldGabungan = $cfoldGabungan + ($cf * (1 - $cfoldGabungan));
