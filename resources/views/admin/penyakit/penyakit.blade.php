@@ -20,7 +20,7 @@
                 </div>
             @endif
             <div class="mt-2 pt-3 d-flex ms-auto">
-                <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#depresiModal">
+                <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#penyakitModal">
                     <i class="bi bi-plus-circle-fill"> Tambah Penyakit</i>
                 </button>
             </div>
@@ -34,17 +34,17 @@
                   </tr>
                 </thead>
                 <tbody>
-                    @foreach ($depresi as $item)
+                    @foreach ($penyakit as $item)
                         <tr>
                             <th scope="row">{{ $loop->iteration }}</th>
-                            <td>{{$item->kode_depresi}}</td>
-                            <td>{{$item->depresi}}</td>
+                            <td>{{$item->kode_penyakit}}</td>
+                            <td>{{$item->penyakit}}</td>
                             <td>
                                 <button class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="updateInput('{{ $item->id }}',
-                                '{{$item->kode_depresi}}', '{{$item->depresi}}'), actionUbahdepresi('{{ route('depresi.update', $item->id) }}')">
+                                '{{$item->kode_penyakit}}', '{{$item->penyakit}}'), actionUbahpenyakit('{{ route('penyakit.update', $item->id) }}')">
                                     <i class="bi bi-pencil-square"></i>
                                 </button>
-                                <form action="{{ route('depresi.destroy', $item) }}" class="d-inline" method="POST">
+                                <form action="{{ route('penyakit.destroy', $item) }}" class="d-inline" method="POST">
                                     @method('DELETE')
                                     @csrf()
                                     <button type="submit" class="btn btn-outline-danger">
@@ -57,7 +57,7 @@
                 </tbody>
               </table>
 
-              @include('components.admin_modal_depresi_edit')
+              @include('components.admin_modal_penyakit_edit')
           </div>
         </div>
     </div>

@@ -24,14 +24,14 @@
                                 <?php foreach ($data_diagnosa as $val ) {
                                     if (floatval($val["value"]) > $int) {
                                         $diagnosa_dipilih["value"] = floatval($val["value"]);
-                                        $diagnosa_dipilih["kode_depresi"] = App\Models\TingkatDepresi::where("kode_depresi", $val["kode_depresi"])->first();
+                                        $diagnosa_dipilih["kode_penyakit"] = App\Models\TingkatPenyakit::where("kode_penyakit", $val["kode_penyakit"])->first();
                                         $int = floatval($val["value"]);
                                     }
                                 } ?>
                                 <tr>
                                     <th scope="row">{{ $loop->iteration }}</th>
                                     <td>{{ $item->diagnosa_id }}</td>
-                                    <td> {{ $diagnosa_dipilih["kode_depresi"]->kode_depresi }} | {{ $diagnosa_dipilih["kode_depresi"]->depresi }}</td>
+                                    <td> {{ $diagnosa_dipilih["kode_penyakit"]->kode_penyakit }} | {{ $diagnosa_dipilih["kode_penyakit"]->penyakit }}</td>
                                     <!-- <td>{{ ($diagnosa_dipilih["value"] * 100) }} %</td> -->
                                     <td><a class="p-2" href="{{ route('spk.result', ["diagnosa_id" => $item->diagnosa_id]) }}">Detail</a></td>
                                 </tr>
